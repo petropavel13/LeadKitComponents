@@ -1,0 +1,902 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33709771A492551C27C9E273 /* Pods_LeadKitComponents_LeadKitComponents_iOS_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B672440EAB0F26E4D577FB /* Pods_LeadKitComponents_LeadKitComponents_iOS_Extension.framework */; };
+		44B690BFA618C5F57F8EF102 /* Pods_LeadKitComponents_LeadKitComponents_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39068953097067B0468B2546 /* Pods_LeadKitComponents_LeadKitComponents_iOS.framework */; };
+		AB439CB05D0C68B126F7FDDC /* Pods_LeadKitComponents_LeadKitComponents_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4580C1E622C1BF7ADB8BAEC /* Pods_LeadKitComponents_LeadKitComponents_tvOS.framework */; };
+		BF_141961139072 /* ExampleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_291151968161 /* ExampleClass.swift */; };
+		BF_257420179988 /* LeadKitComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = FR_374564467167 /* LeadKitComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF_261519320594 /* LeadKitComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = FR_374564467167 /* LeadKitComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF_400354035982 /* ExampleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_291151968161 /* ExampleClass.swift */; };
+		BF_629512479193 /* ExampleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_291151968161 /* ExampleClass.swift */; };
+		BF_693027575884 /* LeadKitComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = FR_374564467167 /* LeadKitComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF_816146333287 /* LeadKitComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = FR_374564467167 /* LeadKitComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF_840973187345 /* ExampleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_291151968161 /* ExampleClass.swift */; };
+		EB4CC6471AD29F855A1C94F7 /* Pods_LeadKitComponents_LeadKitComponents_watchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49FFBF9180824B32B13DE7C /* Pods_LeadKitComponents_LeadKitComponents_watchOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01B672440EAB0F26E4D577FB /* Pods_LeadKitComponents_LeadKitComponents_iOS_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeadKitComponents_LeadKitComponents_iOS_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FF87D0B7A6562B382263F65 /* Pods-LeadKitComponents-LeadKitComponents-iOS-Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeadKitComponents-LeadKitComponents-iOS-Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeadKitComponents-LeadKitComponents-iOS-Extension/Pods-LeadKitComponents-LeadKitComponents-iOS-Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		378222AA5DA7FE15FCD79548 /* Pods-LeadKitComponents-LeadKitComponents-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeadKitComponents-LeadKitComponents-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeadKitComponents-LeadKitComponents-tvOS/Pods-LeadKitComponents-LeadKitComponents-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		39068953097067B0468B2546 /* Pods_LeadKitComponents_LeadKitComponents_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeadKitComponents_LeadKitComponents_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67C1A8F4725B3E569906CAD1 /* Pods-LeadKitComponents-LeadKitComponents-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeadKitComponents-LeadKitComponents-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeadKitComponents-LeadKitComponents-tvOS/Pods-LeadKitComponents-LeadKitComponents-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		69C674BE1314E655FF0F41BD /* Pods-LeadKitComponents-LeadKitComponents-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeadKitComponents-LeadKitComponents-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeadKitComponents-LeadKitComponents-iOS/Pods-LeadKitComponents-LeadKitComponents-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		83256E3390A14FC90EE2D151 /* Pods-LeadKitComponents-LeadKitComponents-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeadKitComponents-LeadKitComponents-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeadKitComponents-LeadKitComponents-iOS/Pods-LeadKitComponents-LeadKitComponents-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		901049FBC80D29610338EFEA /* Pods-LeadKitComponents-LeadKitComponents-watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeadKitComponents-LeadKitComponents-watchOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeadKitComponents-LeadKitComponents-watchOS/Pods-LeadKitComponents-LeadKitComponents-watchOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A5882FE61DF8366ED94E67CC /* Pods-LeadKitComponents-LeadKitComponents-watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeadKitComponents-LeadKitComponents-watchOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeadKitComponents-LeadKitComponents-watchOS/Pods-LeadKitComponents-LeadKitComponents-watchOS.release.xcconfig"; sourceTree = "<group>"; };
+		A60DE53DDA12125BD1D5DF96 /* Pods-LeadKitComponents-LeadKitComponents-iOS-Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeadKitComponents-LeadKitComponents-iOS-Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeadKitComponents-LeadKitComponents-iOS-Extension/Pods-LeadKitComponents-LeadKitComponents-iOS-Extension.release.xcconfig"; sourceTree = "<group>"; };
+		E49FFBF9180824B32B13DE7C /* Pods_LeadKitComponents_LeadKitComponents_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeadKitComponents_LeadKitComponents_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4580C1E622C1BF7ADB8BAEC /* Pods_LeadKitComponents_LeadKitComponents_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeadKitComponents_LeadKitComponents_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FR_126258434865 /* LeadKitComponents-iOS-Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "LeadKitComponents-iOS-Extension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FR_149931113770 /* LeadKitComponents-iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "LeadKitComponents-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FR_291151968161 /* ExampleClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleClass.swift; sourceTree = "<group>"; };
+		FR_374564467167 /* LeadKitComponents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeadKitComponents.h; sourceTree = "<group>"; };
+		FR_465156479061 /* LeadKitComponents-tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "LeadKitComponents-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FR_698899588590 /* LeadKitComponents-watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "LeadKitComponents-watchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09DCBCBD2F165119E2C86D94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4CC6471AD29F855A1C94F7 /* Pods_LeadKitComponents_LeadKitComponents_watchOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CB086EC7C335FB76EA1C857 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33709771A492551C27C9E273 /* Pods_LeadKitComponents_LeadKitComponents_iOS_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6EC2D3C0A888B8CCC2CBE94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44B690BFA618C5F57F8EF102 /* Pods_LeadKitComponents_LeadKitComponents_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF782CF0059CEA9C6F657064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB439CB05D0C68B126F7FDDC /* Pods_LeadKitComponents_LeadKitComponents_tvOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05E829FB53FAC303D229E8E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69C674BE1314E655FF0F41BD /* Pods-LeadKitComponents-LeadKitComponents-iOS.debug.xcconfig */,
+				83256E3390A14FC90EE2D151 /* Pods-LeadKitComponents-LeadKitComponents-iOS.release.xcconfig */,
+				0FF87D0B7A6562B382263F65 /* Pods-LeadKitComponents-LeadKitComponents-iOS-Extension.debug.xcconfig */,
+				A60DE53DDA12125BD1D5DF96 /* Pods-LeadKitComponents-LeadKitComponents-iOS-Extension.release.xcconfig */,
+				378222AA5DA7FE15FCD79548 /* Pods-LeadKitComponents-LeadKitComponents-tvOS.debug.xcconfig */,
+				67C1A8F4725B3E569906CAD1 /* Pods-LeadKitComponents-LeadKitComponents-tvOS.release.xcconfig */,
+				901049FBC80D29610338EFEA /* Pods-LeadKitComponents-LeadKitComponents-watchOS.debug.xcconfig */,
+				A5882FE61DF8366ED94E67CC /* Pods-LeadKitComponents-LeadKitComponents-watchOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		605FF6641097A6AFB9E92F05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39068953097067B0468B2546 /* Pods_LeadKitComponents_LeadKitComponents_iOS.framework */,
+				01B672440EAB0F26E4D577FB /* Pods_LeadKitComponents_LeadKitComponents_iOS_Extension.framework */,
+				F4580C1E622C1BF7ADB8BAEC /* Pods_LeadKitComponents_LeadKitComponents_tvOS.framework */,
+				E49FFBF9180824B32B13DE7C /* Pods_LeadKitComponents_LeadKitComponents_watchOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		G_1409190946934 /* Structures */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Structures;
+			sourceTree = "<group>";
+		};
+		G_3088606334698 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		G_3401046521442 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		G_5187409431370 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FR_291151968161 /* ExampleClass.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		G_7079685811580 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+		G_8448771205358 = {
+			isa = PBXGroup;
+			children = (
+				G_8620238527590 /* Products */,
+				G_8934779235101 /* Sources */,
+				05E829FB53FAC303D229E8E3 /* Pods */,
+				605FF6641097A6AFB9E92F05 /* Frameworks */,
+			);
+			indentWidth = 4;
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		G_8620238527590 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FR_126258434865 /* LeadKitComponents-iOS-Extension.framework */,
+				FR_149931113770 /* LeadKitComponents-iOS.framework */,
+				FR_465156479061 /* LeadKitComponents-tvOS.framework */,
+				FR_698899588590 /* LeadKitComponents-watchOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		G_8934779235101 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				G_5187409431370 /* Classes */,
+				G_3401046521442 /* Enums */,
+				G_7079685811580 /* Functions */,
+				G_3088606334698 /* Protocols */,
+				G_1409190946934 /* Structures */,
+				FR_374564467167 /* LeadKitComponents.h */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		HBP_12625843486 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF_261519320594 /* LeadKitComponents.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		HBP_14993111377 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF_257420179988 /* LeadKitComponents.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		HBP_46515647906 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF_693027575884 /* LeadKitComponents.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		HBP_69889958859 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF_816146333287 /* LeadKitComponents.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		NT_126258434865 /* LeadKitComponents-iOS-Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CL_126258434865 /* Build configuration list for PBXNativeTarget "LeadKitComponents-iOS-Extension" */;
+			buildPhases = (
+				659DF20EDB6E12F0E25ACB53 /* [CP] Check Pods Manifest.lock */,
+				SBP_12625843486 /* Sources */,
+				HBP_12625843486 /* Headers */,
+				SSBP_3227528204 /* Swiftlint */,
+				SSBP_8197414775 /* CopyPaste Detection */,
+				9CB086EC7C335FB76EA1C857 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LeadKitComponents-iOS-Extension";
+			productName = "LeadKitComponents-iOS-Extension";
+			productReference = FR_126258434865 /* LeadKitComponents-iOS-Extension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		NT_149931113770 /* LeadKitComponents-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CL_149931113770 /* Build configuration list for PBXNativeTarget "LeadKitComponents-iOS" */;
+			buildPhases = (
+				F4F25AE83D39F8B48FCD2A5B /* [CP] Check Pods Manifest.lock */,
+				SBP_14993111377 /* Sources */,
+				HBP_14993111377 /* Headers */,
+				SSBP_4551331804 /* Swiftlint */,
+				SSBP_7648901863 /* CopyPaste Detection */,
+				A6EC2D3C0A888B8CCC2CBE94 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LeadKitComponents-iOS";
+			productName = "LeadKitComponents-iOS";
+			productReference = FR_149931113770 /* LeadKitComponents-iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		NT_465156479061 /* LeadKitComponents-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CL_465156479061 /* Build configuration list for PBXNativeTarget "LeadKitComponents-tvOS" */;
+			buildPhases = (
+				2899914911A418B0DB0AC7D3 /* [CP] Check Pods Manifest.lock */,
+				SBP_46515647906 /* Sources */,
+				HBP_46515647906 /* Headers */,
+				SSBP_8841108878 /* Swiftlint */,
+				SSBP_4610643744 /* CopyPaste Detection */,
+				CF782CF0059CEA9C6F657064 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LeadKitComponents-tvOS";
+			productName = "LeadKitComponents-tvOS";
+			productReference = FR_465156479061 /* LeadKitComponents-tvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		NT_698899588590 /* LeadKitComponents-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CL_698899588590 /* Build configuration list for PBXNativeTarget "LeadKitComponents-watchOS" */;
+			buildPhases = (
+				A4352770503D29F9ADED226B /* [CP] Check Pods Manifest.lock */,
+				SBP_69889958859 /* Sources */,
+				HBP_69889958859 /* Headers */,
+				SSBP_7739548239 /* Swiftlint */,
+				SSBP_1950437441 /* CopyPaste Detection */,
+				09DCBCBD2F165119E2C86D94 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LeadKitComponents-watchOS";
+			productName = "LeadKitComponents-watchOS";
+			productReference = FR_698899588590 /* LeadKitComponents-watchOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		P_8255669214206 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = CL_825566921420 /* Build configuration list for PBXProject "LeadKitComponents" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			mainGroup = G_8448771205358;
+			productRefGroup = G_8620238527590 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				NT_149931113770 /* LeadKitComponents-iOS */,
+				NT_126258434865 /* LeadKitComponents-iOS-Extension */,
+				NT_465156479061 /* LeadKitComponents-tvOS */,
+				NT_698899588590 /* LeadKitComponents-watchOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2899914911A418B0DB0AC7D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LeadKitComponents-LeadKitComponents-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		659DF20EDB6E12F0E25ACB53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LeadKitComponents-LeadKitComponents-iOS-Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4352770503D29F9ADED226B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LeadKitComponents-LeadKitComponents-watchOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4F25AE83D39F8B48FCD2A5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LeadKitComponents-LeadKitComponents-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		SSBP_1950437441 /* CopyPaste Detection */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "CopyPaste Detection";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ". build-scripts/xcode/build_phases/copy_paste_detection.sh Sources";
+		};
+		SSBP_3227528204 /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ". build-scripts/xcode/build_phases/swiftlint.sh Sources";
+		};
+		SSBP_4551331804 /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ". build-scripts/xcode/build_phases/swiftlint.sh Sources";
+		};
+		SSBP_4610643744 /* CopyPaste Detection */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "CopyPaste Detection";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ". build-scripts/xcode/build_phases/copy_paste_detection.sh Sources";
+		};
+		SSBP_7648901863 /* CopyPaste Detection */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "CopyPaste Detection";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ". build-scripts/xcode/build_phases/copy_paste_detection.sh Sources";
+		};
+		SSBP_7739548239 /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ". build-scripts/xcode/build_phases/swiftlint.sh Sources";
+		};
+		SSBP_8197414775 /* CopyPaste Detection */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "CopyPaste Detection";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ". build-scripts/xcode/build_phases/copy_paste_detection.sh Sources";
+		};
+		SSBP_8841108878 /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ". build-scripts/xcode/build_phases/swiftlint.sh Sources";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		SBP_12625843486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF_840973187345 /* ExampleClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		SBP_14993111377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF_400354035982 /* ExampleClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		SBP_46515647906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF_629512479193 /* ExampleClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		SBP_69889958859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF_141961139072 /* ExampleClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BC_128249386394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67C1A8F4725B3E569906CAD1 /* Pods-LeadKitComponents-LeadKitComponents-tvOS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = "Sources/Info-tvOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = LeadKitComponents;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = YES;
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = 3;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		BC_280456300665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 378222AA5DA7FE15FCD79548 /* Pods-LeadKitComponents-LeadKitComponents-tvOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = "Sources/Info-tvOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = LeadKitComponents;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = YES;
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = 3;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		BC_479945831424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		BC_547439695682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83256E3390A14FC90EE2D151 /* Pods-LeadKitComponents-LeadKitComponents-iOS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = "Sources/Info-iOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = LeadKitComponents;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = YES;
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		BC_666684835121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A60DE53DDA12125BD1D5DF96 /* Pods-LeadKitComponents-LeadKitComponents-iOS-Extension.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = "Sources/Info-iOS-Extension.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = LeadKitComponents;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = YES;
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		BC_707302689443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69C674BE1314E655FF0F41BD /* Pods-LeadKitComponents-LeadKitComponents-iOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = "Sources/Info-iOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = LeadKitComponents;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = YES;
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		BC_783569831284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5882FE61DF8366ED94E67CC /* Pods-LeadKitComponents-LeadKitComponents-watchOS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = "Sources/Info-watchOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				PRODUCT_NAME = LeadKitComponents;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = YES;
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		BC_881114754245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		BC_905926709267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FF87D0B7A6562B382263F65 /* Pods-LeadKitComponents-LeadKitComponents-iOS-Extension.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = "Sources/Info-iOS-Extension.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = LeadKitComponents;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = YES;
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		BC_918466772038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 901049FBC80D29610338EFEA /* Pods-LeadKitComponents-LeadKitComponents-watchOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = "Sources/Info-watchOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				PRODUCT_NAME = LeadKitComponents;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = YES;
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CL_126258434865 /* Build configuration list for PBXNativeTarget "LeadKitComponents-iOS-Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC_905926709267 /* Debug */,
+				BC_666684835121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "";
+		};
+		CL_149931113770 /* Build configuration list for PBXNativeTarget "LeadKitComponents-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC_707302689443 /* Debug */,
+				BC_547439695682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "";
+		};
+		CL_465156479061 /* Build configuration list for PBXNativeTarget "LeadKitComponents-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC_280456300665 /* Debug */,
+				BC_128249386394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "";
+		};
+		CL_698899588590 /* Build configuration list for PBXNativeTarget "LeadKitComponents-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC_918466772038 /* Debug */,
+				BC_783569831284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "";
+		};
+		CL_825566921420 /* Build configuration list for PBXProject "LeadKitComponents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC_479945831424 /* Debug */,
+				BC_881114754245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = P_8255669214206 /* Project object */;
+}
