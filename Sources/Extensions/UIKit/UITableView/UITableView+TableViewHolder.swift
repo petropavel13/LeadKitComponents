@@ -20,6 +20,12 @@
 //  THE SOFTWARE.
 //
 
-import Foundation
+import UIKit.UITableView
 
-public final class ExampleClass {}
+extension UITableView: TableViewHolder {
+
+    public var tableView: UITableView {
+        return self
+    }
+
+}
