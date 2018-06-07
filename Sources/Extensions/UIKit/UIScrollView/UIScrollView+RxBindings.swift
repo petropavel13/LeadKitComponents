@@ -23,8 +23,9 @@
 import RxSwift
 import RxCocoa
 
-extension Reactive where Base: UIScrollView {
+public extension Reactive where Base: UIScrollView {
 
+    /// Binder instance that updates contentInset bottom value.
     var bottomInsetBinder: Binder<CGFloat> {
         return Binder(base) { base, value in
             DispatchQueue.main.async {

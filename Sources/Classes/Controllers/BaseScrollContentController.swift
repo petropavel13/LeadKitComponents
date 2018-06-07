@@ -32,6 +32,9 @@ open class BaseScrollContentController<ViewModel, View: ScrollViewHolderView>: B
 
     private var bottomInsetDisposable: Disposable?
 
+    /// Bind given driver to bottom inset of scroll view. Takes into account default bottom insets.
+    ///
+    /// - Parameter bottomInsetDriver: Driver that emits CGFloat bottom inset changes.
     public func bindBottomInsetBinding(from bottomInsetDriver: Driver<CGFloat>) {
         bottomInsetDisposable = bottomInsetDriver
             .withLatestFrom(defaultInsetsRelay.asDriver()) {
@@ -40,10 +43,13 @@ open class BaseScrollContentController<ViewModel, View: ScrollViewHolderView>: B
             .drive(customView.scrollView.rx.bottomInsetBinder)
     }
 
+    /// Unbind scroll view from previous binding.
     public func unbindBottomInsetBinding() {
         bottomInsetDisposable?.dispose()
     }
 
+    /// On iOS, tvOS 11+ sets contentInsetAdjustmentBehavior to .never.
+    /// On earlier versions sets automaticallyAdjustsScrollViewInsets to false.
     open func disableAdjustsScrollViewInsets() {
         if #available(iOS 11.0, tvOS 11.0, *) {
             customView.scrollView.contentInsetAdjustmentBehavior = .never
@@ -52,6 +58,7 @@ open class BaseScrollContentController<ViewModel, View: ScrollViewHolderView>: B
         }
     }
 
+    /// Default insets used for contained scroll view.
     public var defaultInsets: UIEdgeInsets {
         get {
             return defaultInsetsRelay.value

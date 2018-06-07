@@ -20,8 +20,6 @@
 //  THE SOFTWARE.
 //
 
-import Foundation
-
 /// Protocol with methods that should be called in viewDidLoad method of UIViewController.
 public protocol ConfigurableController: InitializableView {
 

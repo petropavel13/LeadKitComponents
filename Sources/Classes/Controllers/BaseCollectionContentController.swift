@@ -25,7 +25,7 @@ import UIKit
 /// Base collection controller configurable with view model and CollectionViewWrapperView as custom view.
 open class BaseCollectionContentController<ViewModel>: BaseScrollContentController<ViewModel, CollectionViewWrapperView> {
 
-    /// Contained UITableView instance.
+    /// Contained UICollectionView instance.
     public var collectionView: UICollectionView {
         return customView.collectionView
     }
