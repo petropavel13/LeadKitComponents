@@ -8,11 +8,15 @@ abstract_target 'LeadKitComponents' do
 
   # common pods
   pod 'SwiftLint'
+  pod 'RxSwift'
+  pod 'RxCocoa'
 
   target 'LeadKitComponents-iOS' do
     platform :ios, '9.0'
 
     # pods for iOS
+
+    pod 'TableKit'
 
   end
 

@@ -13,6 +13,23 @@ Pod::Spec.new do |s|
 
   s.swift_version = '4.1'
 
+  s.dependency "RxSwift", '~> 4.1'
+  s.dependency "RxCocoa", '~> 4.1'
+
+  s.ios.dependency "TableKit", '~> 2.6'
+
   s.source_files = "Sources/**/*.swift"
+
+  s.watchos.exclude_files = [
+    "Sources/Classes/Controllers/Base{Configurable,CustomView,ScrollContent,TableContent,CollectionContent}Controller.swift",
+    "Sources/Classes/Views/{Table,Collection}ViewWrapperView.swift",
+    "Sources/Extensions/UIKit/**/*.swift",
+    "Sources/Protocols/{Scroll,Table,Collection}ViewHolder.swift",
+    "Sources/Extensions/ProtocolExtensions/{TableViewHolder,CollectionViewHolder}+ScrollViewHolder.swift",
+  ]
+
+  s.tvos.exclude_files = [
+    "Sources/Classes/Controllers/BaseTableContentController.swift",
+  ]
 
 end

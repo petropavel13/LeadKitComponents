@@ -9,15 +9,65 @@
 /* Begin PBXBuildFile section */
 		33709771A492551C27C9E273 /* Pods_LeadKitComponents_LeadKitComponents_iOS_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B672440EAB0F26E4D577FB /* Pods_LeadKitComponents_LeadKitComponents_iOS_Extension.framework */; };
 		44B690BFA618C5F57F8EF102 /* Pods_LeadKitComponents_LeadKitComponents_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39068953097067B0468B2546 /* Pods_LeadKitComponents_LeadKitComponents_iOS.framework */; };
+		67FC345120C91F1000738557 /* InitializableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC345020C91F1000738557 /* InitializableView.swift */; };
+		67FC345220C91F1000738557 /* InitializableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC345020C91F1000738557 /* InitializableView.swift */; };
+		67FC345320C91F1000738557 /* InitializableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC345020C91F1000738557 /* InitializableView.swift */; };
+		67FC345420C91F1000738557 /* InitializableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC345020C91F1000738557 /* InitializableView.swift */; };
+		67FC345620C91F4D00738557 /* ConfigurableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC345520C91F4D00738557 /* ConfigurableController.swift */; };
+		67FC345720C91F4D00738557 /* ConfigurableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC345520C91F4D00738557 /* ConfigurableController.swift */; };
+		67FC345820C91F4D00738557 /* ConfigurableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC345520C91F4D00738557 /* ConfigurableController.swift */; };
+		67FC345920C91F4D00738557 /* ConfigurableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC345520C91F4D00738557 /* ConfigurableController.swift */; };
+		67FC345D20C9202E00738557 /* UIViewController+ConfigurableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC345C20C9202E00738557 /* UIViewController+ConfigurableController.swift */; };
+		67FC345E20C9202E00738557 /* UIViewController+ConfigurableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC345C20C9202E00738557 /* UIViewController+ConfigurableController.swift */; };
+		67FC345F20C9202E00738557 /* UIViewController+ConfigurableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC345C20C9202E00738557 /* UIViewController+ConfigurableController.swift */; };
+		67FC346520C9211A00738557 /* BaseConfigurableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC346420C9211A00738557 /* BaseConfigurableController.swift */; };
+		67FC346620C9211A00738557 /* BaseConfigurableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC346420C9211A00738557 /* BaseConfigurableController.swift */; };
+		67FC346720C9211A00738557 /* BaseConfigurableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC346420C9211A00738557 /* BaseConfigurableController.swift */; };
+		67FC346A20C921EC00738557 /* BaseCustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC346920C921EC00738557 /* BaseCustomViewController.swift */; };
+		67FC346B20C921EC00738557 /* BaseCustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC346920C921EC00738557 /* BaseCustomViewController.swift */; };
+		67FC346C20C921EC00738557 /* BaseCustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC346920C921EC00738557 /* BaseCustomViewController.swift */; };
+		67FC346F20C9228B00738557 /* ScrollViewHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC346E20C9228B00738557 /* ScrollViewHolder.swift */; };
+		67FC347020C9228B00738557 /* ScrollViewHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC346E20C9228B00738557 /* ScrollViewHolder.swift */; };
+		67FC347120C9228B00738557 /* ScrollViewHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC346E20C9228B00738557 /* ScrollViewHolder.swift */; };
+		67FC347420C9235A00738557 /* BaseScrollContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC347320C9235A00738557 /* BaseScrollContentController.swift */; };
+		67FC347520C9235A00738557 /* BaseScrollContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC347320C9235A00738557 /* BaseScrollContentController.swift */; };
+		67FC347620C9235A00738557 /* BaseScrollContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC347320C9235A00738557 /* BaseScrollContentController.swift */; };
+		67FC347A20C9242400738557 /* UIScrollView+RxBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC347920C9242400738557 /* UIScrollView+RxBindings.swift */; };
+		67FC347B20C9242400738557 /* UIScrollView+RxBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC347920C9242400738557 /* UIScrollView+RxBindings.swift */; };
+		67FC347C20C9242400738557 /* UIScrollView+RxBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC347920C9242400738557 /* UIScrollView+RxBindings.swift */; };
+		67FC347F20C9266D00738557 /* TableViewHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC347E20C9266D00738557 /* TableViewHolder.swift */; };
+		67FC348020C9266D00738557 /* TableViewHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC347E20C9266D00738557 /* TableViewHolder.swift */; };
+		67FC348120C9266D00738557 /* TableViewHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC347E20C9266D00738557 /* TableViewHolder.swift */; };
+		67FC348420C9272B00738557 /* UIScrollView+ScrollViewHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC348320C9272B00738557 /* UIScrollView+ScrollViewHolder.swift */; };
+		67FC348520C9272B00738557 /* UIScrollView+ScrollViewHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC348320C9272B00738557 /* UIScrollView+ScrollViewHolder.swift */; };
+		67FC348620C9272B00738557 /* UIScrollView+ScrollViewHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC348320C9272B00738557 /* UIScrollView+ScrollViewHolder.swift */; };
+		67FC348820C9276900738557 /* UITableView+TableViewHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC348720C9276900738557 /* UITableView+TableViewHolder.swift */; };
+		67FC348920C9276900738557 /* UITableView+TableViewHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC348720C9276900738557 /* UITableView+TableViewHolder.swift */; };
+		67FC348A20C9276900738557 /* UITableView+TableViewHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC348720C9276900738557 /* UITableView+TableViewHolder.swift */; };
+		67FC348D20C927AF00738557 /* TableViewHolder+ScrollViewHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC348C20C927AF00738557 /* TableViewHolder+ScrollViewHolder.swift */; };
+		67FC348E20C927AF00738557 /* TableViewHolder+ScrollViewHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC348C20C927AF00738557 /* TableViewHolder+ScrollViewHolder.swift */; };
+		67FC348F20C927AF00738557 /* TableViewHolder+ScrollViewHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC348C20C927AF00738557 /* TableViewHolder+ScrollViewHolder.swift */; };
+		67FC349120C9280A00738557 /* BaseTableContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC349020C9280A00738557 /* BaseTableContentController.swift */; };
+		67FC349620C9284B00738557 /* TableViewWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC349520C9284B00738557 /* TableViewWrapperView.swift */; };
+		67FC349720C9284B00738557 /* TableViewWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC349520C9284B00738557 /* TableViewWrapperView.swift */; };
+		67FC349820C9284B00738557 /* TableViewWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC349520C9284B00738557 /* TableViewWrapperView.swift */; };
+		67FC349A20C929CF00738557 /* BaseCollectionContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC349920C929CF00738557 /* BaseCollectionContentController.swift */; };
+		67FC349B20C929CF00738557 /* BaseCollectionContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC349920C929CF00738557 /* BaseCollectionContentController.swift */; };
+		67FC349C20C929CF00738557 /* BaseCollectionContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC349920C929CF00738557 /* BaseCollectionContentController.swift */; };
+		67FC349E20C92A1E00738557 /* CollectionViewWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC349D20C92A1E00738557 /* CollectionViewWrapperView.swift */; };
+		67FC349F20C92A1E00738557 /* CollectionViewWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC349D20C92A1E00738557 /* CollectionViewWrapperView.swift */; };
+		67FC34A020C92A1E00738557 /* CollectionViewWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC349D20C92A1E00738557 /* CollectionViewWrapperView.swift */; };
+		67FC34A220C92B8200738557 /* CollectionViewHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC34A120C92B8200738557 /* CollectionViewHolder.swift */; };
+		67FC34A320C92B8200738557 /* CollectionViewHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC34A120C92B8200738557 /* CollectionViewHolder.swift */; };
+		67FC34A420C92B8200738557 /* CollectionViewHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC34A120C92B8200738557 /* CollectionViewHolder.swift */; };
+		67FC34A620C92BD500738557 /* CollectionViewHolder+ScrollViewHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC34A520C92BD500738557 /* CollectionViewHolder+ScrollViewHolder.swift */; };
+		67FC34A720C92BD500738557 /* CollectionViewHolder+ScrollViewHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC34A520C92BD500738557 /* CollectionViewHolder+ScrollViewHolder.swift */; };
+		67FC34A820C92BD500738557 /* CollectionViewHolder+ScrollViewHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC34A520C92BD500738557 /* CollectionViewHolder+ScrollViewHolder.swift */; };
 		AB439CB05D0C68B126F7FDDC /* Pods_LeadKitComponents_LeadKitComponents_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4580C1E622C1BF7ADB8BAEC /* Pods_LeadKitComponents_LeadKitComponents_tvOS.framework */; };
-		BF_141961139072 /* ExampleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_291151968161 /* ExampleClass.swift */; };
 		BF_257420179988 /* LeadKitComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = FR_374564467167 /* LeadKitComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF_261519320594 /* LeadKitComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = FR_374564467167 /* LeadKitComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF_400354035982 /* ExampleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_291151968161 /* ExampleClass.swift */; };
-		BF_629512479193 /* ExampleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_291151968161 /* ExampleClass.swift */; };
 		BF_693027575884 /* LeadKitComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = FR_374564467167 /* LeadKitComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF_816146333287 /* LeadKitComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = FR_374564467167 /* LeadKitComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF_840973187345 /* ExampleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_291151968161 /* ExampleClass.swift */; };
 		EB4CC6471AD29F855A1C94F7 /* Pods_LeadKitComponents_LeadKitComponents_watchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49FFBF9180824B32B13DE7C /* Pods_LeadKitComponents_LeadKitComponents_watchOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +77,24 @@
 		378222AA5DA7FE15FCD79548 /* Pods-LeadKitComponents-LeadKitComponents-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeadKitComponents-LeadKitComponents-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeadKitComponents-LeadKitComponents-tvOS/Pods-LeadKitComponents-LeadKitComponents-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		39068953097067B0468B2546 /* Pods_LeadKitComponents_LeadKitComponents_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeadKitComponents_LeadKitComponents_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67C1A8F4725B3E569906CAD1 /* Pods-LeadKitComponents-LeadKitComponents-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeadKitComponents-LeadKitComponents-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeadKitComponents-LeadKitComponents-tvOS/Pods-LeadKitComponents-LeadKitComponents-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		67FC345020C91F1000738557 /* InitializableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitializableView.swift; sourceTree = "<group>"; };
+		67FC345520C91F4D00738557 /* ConfigurableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurableController.swift; sourceTree = "<group>"; };
+		67FC345C20C9202E00738557 /* UIViewController+ConfigurableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ConfigurableController.swift"; sourceTree = "<group>"; };
+		67FC346420C9211A00738557 /* BaseConfigurableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseConfigurableController.swift; sourceTree = "<group>"; };
+		67FC346920C921EC00738557 /* BaseCustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCustomViewController.swift; sourceTree = "<group>"; };
+		67FC346E20C9228B00738557 /* ScrollViewHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewHolder.swift; sourceTree = "<group>"; };
+		67FC347320C9235A00738557 /* BaseScrollContentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseScrollContentController.swift; sourceTree = "<group>"; };
+		67FC347920C9242400738557 /* UIScrollView+RxBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+RxBindings.swift"; sourceTree = "<group>"; };
+		67FC347E20C9266D00738557 /* TableViewHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewHolder.swift; sourceTree = "<group>"; };
+		67FC348320C9272B00738557 /* UIScrollView+ScrollViewHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+ScrollViewHolder.swift"; sourceTree = "<group>"; };
+		67FC348720C9276900738557 /* UITableView+TableViewHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+TableViewHolder.swift"; sourceTree = "<group>"; };
+		67FC348C20C927AF00738557 /* TableViewHolder+ScrollViewHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableViewHolder+ScrollViewHolder.swift"; sourceTree = "<group>"; };
+		67FC349020C9280A00738557 /* BaseTableContentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableContentController.swift; sourceTree = "<group>"; };
+		67FC349520C9284B00738557 /* TableViewWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewWrapperView.swift; sourceTree = "<group>"; };
+		67FC349920C929CF00738557 /* BaseCollectionContentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionContentController.swift; sourceTree = "<group>"; };
+		67FC349D20C92A1E00738557 /* CollectionViewWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewWrapperView.swift; sourceTree = "<group>"; };
+		67FC34A120C92B8200738557 /* CollectionViewHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewHolder.swift; sourceTree = "<group>"; };
+		67FC34A520C92BD500738557 /* CollectionViewHolder+ScrollViewHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CollectionViewHolder+ScrollViewHolder.swift"; sourceTree = "<group>"; };
 		69C674BE1314E655FF0F41BD /* Pods-LeadKitComponents-LeadKitComponents-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeadKitComponents-LeadKitComponents-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeadKitComponents-LeadKitComponents-iOS/Pods-LeadKitComponents-LeadKitComponents-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		83256E3390A14FC90EE2D151 /* Pods-LeadKitComponents-LeadKitComponents-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeadKitComponents-LeadKitComponents-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeadKitComponents-LeadKitComponents-iOS/Pods-LeadKitComponents-LeadKitComponents-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		901049FBC80D29610338EFEA /* Pods-LeadKitComponents-LeadKitComponents-watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeadKitComponents-LeadKitComponents-watchOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeadKitComponents-LeadKitComponents-watchOS/Pods-LeadKitComponents-LeadKitComponents-watchOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -34,12 +102,11 @@
 		A60DE53DDA12125BD1D5DF96 /* Pods-LeadKitComponents-LeadKitComponents-iOS-Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeadKitComponents-LeadKitComponents-iOS-Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeadKitComponents-LeadKitComponents-iOS-Extension/Pods-LeadKitComponents-LeadKitComponents-iOS-Extension.release.xcconfig"; sourceTree = "<group>"; };
 		E49FFBF9180824B32B13DE7C /* Pods_LeadKitComponents_LeadKitComponents_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeadKitComponents_LeadKitComponents_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4580C1E622C1BF7ADB8BAEC /* Pods_LeadKitComponents_LeadKitComponents_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeadKitComponents_LeadKitComponents_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FR_126258434865 /* LeadKitComponents-iOS-Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "LeadKitComponents-iOS-Extension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FR_149931113770 /* LeadKitComponents-iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "LeadKitComponents-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FR_291151968161 /* ExampleClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleClass.swift; sourceTree = "<group>"; };
+		FR_126258434865 /* LeadKitComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LeadKitComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FR_149931113770 /* LeadKitComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LeadKitComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FR_374564467167 /* LeadKitComponents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeadKitComponents.h; sourceTree = "<group>"; };
-		FR_465156479061 /* LeadKitComponents-tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "LeadKitComponents-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FR_698899588590 /* LeadKitComponents-watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "LeadKitComponents-watchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FR_465156479061 /* LeadKitComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LeadKitComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FR_698899588590 /* LeadKitComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LeadKitComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +171,80 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		67FC345A20C91FFF00738557 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				67FC348B20C9279600738557 /* ProtocolExtensions */,
+				67FC346120C9203000738557 /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		67FC346120C9203000738557 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				67FC347820C923D000738557 /* UIScrollView */,
+				67FC348220C9270300738557 /* UITableView */,
+				67FC346220C9203700738557 /* UIViewController */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		67FC346220C9203700738557 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				67FC345C20C9202E00738557 /* UIViewController+ConfigurableController.swift */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		67FC346320C9210700738557 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				67FC349920C929CF00738557 /* BaseCollectionContentController.swift */,
+				67FC346420C9211A00738557 /* BaseConfigurableController.swift */,
+				67FC346920C921EC00738557 /* BaseCustomViewController.swift */,
+				67FC347320C9235A00738557 /* BaseScrollContentController.swift */,
+				67FC349020C9280A00738557 /* BaseTableContentController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		67FC347820C923D000738557 /* UIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				67FC347920C9242400738557 /* UIScrollView+RxBindings.swift */,
+				67FC348320C9272B00738557 /* UIScrollView+ScrollViewHolder.swift */,
+			);
+			path = UIScrollView;
+			sourceTree = "<group>";
+		};
+		67FC348220C9270300738557 /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				67FC348720C9276900738557 /* UITableView+TableViewHolder.swift */,
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		67FC348B20C9279600738557 /* ProtocolExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				67FC348C20C927AF00738557 /* TableViewHolder+ScrollViewHolder.swift */,
+				67FC34A520C92BD500738557 /* CollectionViewHolder+ScrollViewHolder.swift */,
+			);
+			path = ProtocolExtensions;
+			sourceTree = "<group>";
+		};
+		67FC349420C9283E00738557 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				67FC349520C9284B00738557 /* TableViewWrapperView.swift */,
+				67FC349D20C92A1E00738557 /* CollectionViewWrapperView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		G_1409190946934 /* Structures */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +255,11 @@
 		G_3088606334698 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				67FC345020C91F1000738557 /* InitializableView.swift */,
+				67FC345520C91F4D00738557 /* ConfigurableController.swift */,
+				67FC346E20C9228B00738557 /* ScrollViewHolder.swift */,
+				67FC347E20C9266D00738557 /* TableViewHolder.swift */,
+				67FC34A120C92B8200738557 /* CollectionViewHolder.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -128,7 +274,8 @@
 		G_5187409431370 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				FR_291151968161 /* ExampleClass.swift */,
+				67FC349420C9283E00738557 /* Views */,
+				67FC346320C9210700738557 /* Controllers */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -155,10 +302,10 @@
 		G_8620238527590 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FR_126258434865 /* LeadKitComponents-iOS-Extension.framework */,
-				FR_149931113770 /* LeadKitComponents-iOS.framework */,
-				FR_465156479061 /* LeadKitComponents-tvOS.framework */,
-				FR_698899588590 /* LeadKitComponents-watchOS.framework */,
+				FR_126258434865 /* LeadKitComponents.framework */,
+				FR_149931113770 /* LeadKitComponents.framework */,
+				FR_465156479061 /* LeadKitComponents.framework */,
+				FR_698899588590 /* LeadKitComponents.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,6 +315,7 @@
 			children = (
 				G_5187409431370 /* Classes */,
 				G_3401046521442 /* Enums */,
+				67FC345A20C91FFF00738557 /* Extensions */,
 				G_7079685811580 /* Functions */,
 				G_3088606334698 /* Protocols */,
 				G_1409190946934 /* Structures */,
@@ -231,7 +379,7 @@
 			);
 			name = "LeadKitComponents-iOS-Extension";
 			productName = "LeadKitComponents-iOS-Extension";
-			productReference = FR_126258434865 /* LeadKitComponents-iOS-Extension.framework */;
+			productReference = FR_126258434865 /* LeadKitComponents.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		NT_149931113770 /* LeadKitComponents-iOS */ = {
@@ -251,7 +399,7 @@
 			);
 			name = "LeadKitComponents-iOS";
 			productName = "LeadKitComponents-iOS";
-			productReference = FR_149931113770 /* LeadKitComponents-iOS.framework */;
+			productReference = FR_149931113770 /* LeadKitComponents.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		NT_465156479061 /* LeadKitComponents-tvOS */ = {
@@ -271,7 +419,7 @@
 			);
 			name = "LeadKitComponents-tvOS";
 			productName = "LeadKitComponents-tvOS";
-			productReference = FR_465156479061 /* LeadKitComponents-tvOS.framework */;
+			productReference = FR_465156479061 /* LeadKitComponents.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		NT_698899588590 /* LeadKitComponents-watchOS */ = {
@@ -291,7 +439,7 @@
 			);
 			name = "LeadKitComponents-watchOS";
 			productName = "LeadKitComponents-watchOS";
-			productReference = FR_698899588590 /* LeadKitComponents-watchOS.framework */;
+			productReference = FR_698899588590 /* LeadKitComponents.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -301,11 +449,28 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					NT_126258434865 = {
+						LastSwiftMigration = 0940;
+					};
+					NT_149931113770 = {
+						LastSwiftMigration = 0940;
+					};
+					NT_465156479061 = {
+						LastSwiftMigration = 0940;
+					};
+					NT_698899588590 = {
+						LastSwiftMigration = 0940;
+					};
+				};
 			};
 			buildConfigurationList = CL_825566921420 /* Build configuration list for PBXProject "LeadKitComponents" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
 			mainGroup = G_8448771205358;
 			productRefGroup = G_8620238527590 /* Products */;
 			projectDirPath = "";
@@ -511,7 +676,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF_840973187345 /* ExampleClass.swift in Sources */,
+				67FC346B20C921EC00738557 /* BaseCustomViewController.swift in Sources */,
+				67FC345720C91F4D00738557 /* ConfigurableController.swift in Sources */,
+				67FC345E20C9202E00738557 /* UIViewController+ConfigurableController.swift in Sources */,
+				67FC348520C9272B00738557 /* UIScrollView+ScrollViewHolder.swift in Sources */,
+				67FC348020C9266D00738557 /* TableViewHolder.swift in Sources */,
+				67FC347B20C9242400738557 /* UIScrollView+RxBindings.swift in Sources */,
+				67FC346620C9211A00738557 /* BaseConfigurableController.swift in Sources */,
+				67FC347520C9235A00738557 /* BaseScrollContentController.swift in Sources */,
+				67FC349720C9284B00738557 /* TableViewWrapperView.swift in Sources */,
+				67FC345220C91F1000738557 /* InitializableView.swift in Sources */,
+				67FC34A320C92B8200738557 /* CollectionViewHolder.swift in Sources */,
+				67FC349B20C929CF00738557 /* BaseCollectionContentController.swift in Sources */,
+				67FC348E20C927AF00738557 /* TableViewHolder+ScrollViewHolder.swift in Sources */,
+				67FC347020C9228B00738557 /* ScrollViewHolder.swift in Sources */,
+				67FC34A720C92BD500738557 /* CollectionViewHolder+ScrollViewHolder.swift in Sources */,
+				67FC349F20C92A1E00738557 /* CollectionViewWrapperView.swift in Sources */,
+				67FC348920C9276900738557 /* UITableView+TableViewHolder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,7 +700,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF_400354035982 /* ExampleClass.swift in Sources */,
+				67FC346A20C921EC00738557 /* BaseCustomViewController.swift in Sources */,
+				67FC345620C91F4D00738557 /* ConfigurableController.swift in Sources */,
+				67FC345D20C9202E00738557 /* UIViewController+ConfigurableController.swift in Sources */,
+				67FC348420C9272B00738557 /* UIScrollView+ScrollViewHolder.swift in Sources */,
+				67FC347F20C9266D00738557 /* TableViewHolder.swift in Sources */,
+				67FC347A20C9242400738557 /* UIScrollView+RxBindings.swift in Sources */,
+				67FC346520C9211A00738557 /* BaseConfigurableController.swift in Sources */,
+				67FC347420C9235A00738557 /* BaseScrollContentController.swift in Sources */,
+				67FC345120C91F1000738557 /* InitializableView.swift in Sources */,
+				67FC349120C9280A00738557 /* BaseTableContentController.swift in Sources */,
+				67FC34A620C92BD500738557 /* CollectionViewHolder+ScrollViewHolder.swift in Sources */,
+				67FC348D20C927AF00738557 /* TableViewHolder+ScrollViewHolder.swift in Sources */,
+				67FC349A20C929CF00738557 /* BaseCollectionContentController.swift in Sources */,
+				67FC34A220C92B8200738557 /* CollectionViewHolder.swift in Sources */,
+				67FC346F20C9228B00738557 /* ScrollViewHolder.swift in Sources */,
+				67FC349E20C92A1E00738557 /* CollectionViewWrapperView.swift in Sources */,
+				67FC349620C9284B00738557 /* TableViewWrapperView.swift in Sources */,
+				67FC348820C9276900738557 /* UITableView+TableViewHolder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,7 +725,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF_629512479193 /* ExampleClass.swift in Sources */,
+				67FC346C20C921EC00738557 /* BaseCustomViewController.swift in Sources */,
+				67FC345820C91F4D00738557 /* ConfigurableController.swift in Sources */,
+				67FC345F20C9202E00738557 /* UIViewController+ConfigurableController.swift in Sources */,
+				67FC348620C9272B00738557 /* UIScrollView+ScrollViewHolder.swift in Sources */,
+				67FC348120C9266D00738557 /* TableViewHolder.swift in Sources */,
+				67FC347C20C9242400738557 /* UIScrollView+RxBindings.swift in Sources */,
+				67FC346720C9211A00738557 /* BaseConfigurableController.swift in Sources */,
+				67FC347620C9235A00738557 /* BaseScrollContentController.swift in Sources */,
+				67FC349820C9284B00738557 /* TableViewWrapperView.swift in Sources */,
+				67FC345320C91F1000738557 /* InitializableView.swift in Sources */,
+				67FC34A420C92B8200738557 /* CollectionViewHolder.swift in Sources */,
+				67FC349C20C929CF00738557 /* BaseCollectionContentController.swift in Sources */,
+				67FC348F20C927AF00738557 /* TableViewHolder+ScrollViewHolder.swift in Sources */,
+				67FC347120C9228B00738557 /* ScrollViewHolder.swift in Sources */,
+				67FC34A820C92BD500738557 /* CollectionViewHolder+ScrollViewHolder.swift in Sources */,
+				67FC34A020C92A1E00738557 /* CollectionViewWrapperView.swift in Sources */,
+				67FC348A20C9276900738557 /* UITableView+TableViewHolder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,7 +749,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF_141961139072 /* ExampleClass.swift in Sources */,
+				67FC345920C91F4D00738557 /* ConfigurableController.swift in Sources */,
+				67FC345420C91F1000738557 /* InitializableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,6 +761,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 67C1A8F4725B3E569906CAD1 /* Pods-LeadKitComponents-LeadKitComponents-tvOS.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -570,6 +786,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 378222AA5DA7FE15FCD79548 /* Pods-LeadKitComponents-LeadKitComponents-tvOS.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -583,6 +800,7 @@
 				PRODUCT_NAME = LeadKitComponents;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = YES;
 				SWIFT_VERSION = 4.1;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -655,6 +873,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 83256E3390A14FC90EE2D151 /* Pods-LeadKitComponents-LeadKitComponents-iOS.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -680,6 +899,7 @@
 			baseConfigurationReference = A60DE53DDA12125BD1D5DF96 /* Pods-LeadKitComponents-LeadKitComponents-iOS-Extension.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -704,6 +924,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 69C674BE1314E655FF0F41BD /* Pods-LeadKitComponents-LeadKitComponents-iOS.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -717,6 +938,7 @@
 				PRODUCT_NAME = LeadKitComponents;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = YES;
 				SWIFT_VERSION = 4.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -728,6 +950,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A5882FE61DF8366ED94E67CC /* Pods-LeadKitComponents-LeadKitComponents-watchOS.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -737,6 +960,7 @@
 				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = "Sources/Info-watchOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = LeadKitComponents;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -805,6 +1029,7 @@
 			baseConfigurationReference = 0FF87D0B7A6562B382263F65 /* Pods-LeadKitComponents-LeadKitComponents-iOS-Extension.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -818,6 +1043,7 @@
 				PRODUCT_NAME = LeadKitComponents;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = YES;
 				SWIFT_VERSION = 4.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -829,6 +1055,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 901049FBC80D29610338EFEA /* Pods-LeadKitComponents-LeadKitComponents-watchOS.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -838,9 +1065,11 @@
 				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = "Sources/Info-watchOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = LeadKitComponents;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = YES;
 				SWIFT_VERSION = 4.1;
 				TARGETED_DEVICE_FAMILY = 4;
